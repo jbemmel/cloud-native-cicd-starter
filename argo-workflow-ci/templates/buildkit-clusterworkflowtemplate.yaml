@@ -26,11 +26,11 @@ spec:
     parameters:
       # git
       - name: git_owner
-        value: "krumIO"
+        value: "jbemmel"
       - name: git_repo
-        value: "krum-web-2"
+        value: "baseline-vue-app"
       - name: git_branch
-        value: "master"
+        value: "main"
       # docker
       - name: docker_image_tag
         value: "{{`{{workflow.creationTimestamp.Y}}{{workflow.creationTimestamp.m}}{{workflow.creationTimestamp.d}}T{{workflow.creationTimestamp.H}}{{workflow.creationTimestamp.M}}{{workflow.creationTimestamp.S}}`}}"
