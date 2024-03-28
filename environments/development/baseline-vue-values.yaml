@@ -3,7 +3,7 @@ image:
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
 
-  tag: "20240328T200531"
+  tag: "20240328T201751"
 imagePullSecrets:
 - name: docker-pull-secret
 service:
