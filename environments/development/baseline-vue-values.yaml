@@ -1,5 +1,5 @@
 image:
-  repository: jbemmel/baseline-vue-app
+  repository: eccloud/baseline-vue-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
